@@ -315,11 +315,12 @@ body {
 }
 
 #main_title {
-    position: absolute;
-    left: 50%;
-    top: 110%;
-    transform: translate(-50%, -110%);
     animation: fill 0.5s ease forwards 2s;
+}
+
+.positiontitle {
+    margin: 0 auto;
+    text-align: center;
 }
 
 #main_title path:nth-child(1) {
@@ -368,10 +369,7 @@ body {
     height: 2px;
     width: 100px;
     background-color: white;
-    position: absolute;
-    left: 50%;
-    top: 112%;
-    transform: translate(-50%, -112%);
+    margin: 0 auto;
 }
 
 .fa-github,
@@ -435,4 +433,68 @@ body {
 
 .fa-instagram:hover {
     transform: scale(1.5);
+}
+
+#about_hackathon {
+    height: 100vh;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+.what {
+    color: white;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+.isit {
+    color: white;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    margin-left: 15px;
+}
+
+.whatisit {
+    text-align: center;
+}
+
+#countContainer {
+    background-color: white;
+    height: 300px;
+    width: 25%;
+    margin-left: 30px;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+.stat {
+    position: relative;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -65%);
+    z-index: 100;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+
+.statnum {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
 }
