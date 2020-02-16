@@ -3,8 +3,23 @@ html {
 }
 
 body {
-    height: 100vh;
+    height: 620vh;
     background-color: black;
+}
+
+.sexy {
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .date {
@@ -438,7 +453,7 @@ body {
 }
 
 #about_hackathon {
-    height: 100vh;
+    height: 180vh;
 }
 
 .title {
@@ -499,4 +514,9 @@ body {
     font-size: 50px;
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
+}
+
+#map {
+    margin: 0 auto;
+    text-align: center;
 }
