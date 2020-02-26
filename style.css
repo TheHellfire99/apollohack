@@ -399,8 +399,9 @@ body {
 .line3 {
     height: 2px;
     width: 100px;
-    background-color: black;
+    background-color: white;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .fa-github,
@@ -556,6 +557,7 @@ body {
     width: 95%;
     text-align: center;
     margin: 0 auto;
+    background-color: white;
 }
 
 .cont {
@@ -585,4 +587,9 @@ body {
 #sponsors {
     height: 100vh;
     background-color: black;
+}
+
+.logos {
+    margin: 0 auto;
+    height: 150px;
 }
