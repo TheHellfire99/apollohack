@@ -475,7 +475,7 @@ body {
     z-index: 200;
     height: 190vh;
     background-color: white;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .title {
@@ -554,6 +554,7 @@ body {
 #faq {
     height: 100vh;
     background-color: white;
+    overflow: hidden;
 }
 
 .tableboy {
@@ -598,11 +599,34 @@ body {
     height: 150px;
 }
 
-
-/* .line4 {
-    height: 2px;
-    width: 100px;
-    background-color: white;
+.tableRow {
+    width: 100%;
+    text-align: center;
     margin: 0 auto;
-    margin-bottom: 50px;
-} */
+}
+
+.sponsorTable {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.jetbrain {
+    height: 200px;
+}
+
+.make {
+    height: 100px;
+}
+
+.tableDef {
+    margin: 0 auto;
+    text-align: center;
+    width: 33.33%;
+}
+
+.tableDef2 {
+    margin: 0 auto;
+    text-align: center;
+    width: 33.33%;
+    padding-top: 100px;
+}
