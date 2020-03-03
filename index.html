@@ -7,7 +7,7 @@
         <title>Home | welcome</title>
         <script src="https://kit.fontawesome.com/bdc59ad6b0.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> -->
 
     </head>
 
@@ -15,7 +15,7 @@
 
         <section id="home">
             <div class="sexy">
-                                                                                                          <div id="particles-js" style="height: 100vh;">
+                <div id="particles-js" style="height: 100vh;">
                     <!-- <div id="navbar">
                     <a href="#home">Home</a>
                     <a href="#about_hackathon">About The Hackathon</a>
@@ -50,6 +50,7 @@
             </div>
         </section>
         <br>
+
         <section id="about_hackathon">
 
             <div data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
@@ -79,7 +80,7 @@
                 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <h1 class="title3">Where are We located?</h1>
                     <div class="line3"></div>
-                    <div id="map" style="padding-top: 50px;">
+                    <div id="map">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0923575850593!2d-122.41314148468207!3d37.78787527975702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085807f8bd4d441%3A0xd4618e6f27febe26!2sMake%20School!5e0!3m2!1sen!2sus!4v1581876763430!5m2!1sen!2sus"
                             width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                     </div>
@@ -145,15 +146,7 @@
                         </td>
 
 
-                        <tr>
-                            <td class="td2">
-                                <img src="jebe.png" class="image_file">
-                                <h1 class="des">Issac Heir - Director of Operations </h1>
-                                <div class="bruhmoments">
-                                    <a href="https://github.com/IsaacHair" target="\blank"> <i class="fab fa-github"></i></a>
-                                    <a href="https://www.instagram.com/hairyisaac1/" target="\blank"><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </td>
+                        <tr id="tr2">
                             <td class="td2">
                                 <img src="tarnoon.jpg" class="image_file">
                                 <h1 class="des">Tarun Nair - Director of Outreach </h1>
@@ -171,6 +164,7 @@
                                 </div>
                             </td>
                         </tr>
+
                 </table>
                 <div data-aos="flip-up" data-aos-delay="50" data-aos-duration="1000">
                     <h1 class="sub_title">Our Team Members</h1>
@@ -349,22 +343,40 @@
 
         <section id="sponsors">
             <h1 class="title">Sponsors</h1>
-            <div class="line3"></div>
+            <div class="line"></div>
+
+            <table>
+                <tr>
+                    <td>
+                        <img src="jetbrains.svg" class="jetbrain">
+                    </td>
+                    <td>
+                        <img src="https://media.balsamiq.com/files/company/balsamiq-logo-print.svg" class="jetbrain">
+                    </td>
+                    <td>
+                        <img src="" class="jetbrain">
+                    </td>
+
+                </tr>
+            </table>
+
+
+
 
 
         </section>
 
 
-
-          <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
-          <script>
-              AOS.init();
-          </script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.1.0/anime.js ">
-          </script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.1.0/anime.min.js ">
+        <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
+        <script>
+            AOS.init();
         </script>
-        <script src="script.js "></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.1.0/anime.js ">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.1.0/anime.min.js ">
+        </script>
+        <script src="script.js ">
+        </script>
 
     </body>
 </hmtl>

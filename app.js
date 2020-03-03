@@ -26,16 +26,16 @@ particlesJS('particles-js',
                 "value": "#bc13fe"
             },
             "shape": {
-                "type": "sqaure",
+                "type": "polygon",
                 "stroke": {
                     "width": 0,
                     "color": "#000000"
                 },
                 "polygon": {
-                    "nb_sides": 6
+                    "nb_sides": 3
                 },
                 "image": {
-                    "src": "img/github.svg",
+                    "src": "nak.jpg",
                     "width": 100,
                     "height": 100
                 }
@@ -51,7 +51,7 @@ particlesJS('particles-js',
                 }
             },
             "size": {
-                "value": 10,
+                "value": 8,
                 "random": true,
                 "anim": {
                     "enable": false,
@@ -71,7 +71,7 @@ particlesJS('particles-js',
                 "enable": true,
                 "speed": 6,
                 "direction": "none",
-                "random": false,
+                "random": true,
                 "straight": false,
                 "out_mode": "out",
                 "attract": {
@@ -86,7 +86,7 @@ particlesJS('particles-js',
             "events": {
                 "onhover": {
                     "enable": true,
-                    "mode": "none"
+                    "mode": "bubble"
                 },
                 "onclick": {
                     "enable": true,
@@ -103,7 +103,7 @@ particlesJS('particles-js',
                 },
                 "bubble": {
                     "distance": 400,
-                    "size": 40,
+                    "size": 10,
                     "duration": 2,
                     "opacity": 8,
                     "speed": 3
@@ -112,7 +112,7 @@ particlesJS('particles-js',
                     "distance": 200
                 },
                 "push": {
-                    "particles_nb": 4
+                    "particles_nb": 10
                 },
                 "remove": {
                     "particles_nb": 2

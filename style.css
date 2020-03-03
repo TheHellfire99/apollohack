@@ -323,9 +323,11 @@ body {
 
 #home {
     height: 100vh;
+    overflow-x: hidden;
 }
 
 #about {
+    overflow-x: hidden;
     height: 350vh;
 }
 
@@ -399,7 +401,7 @@ body {
 .line3 {
     height: 2px;
     width: 100px;
-    background-color: white;
+    background-color: black;
     margin: 0 auto;
     margin-bottom: 50px;
 }
@@ -473,6 +475,7 @@ body {
     z-index: 200;
     height: 190vh;
     background-color: white;
+    overflow-x: hidden;
 }
 
 .title {
@@ -586,6 +589,7 @@ body {
 
 #sponsors {
     height: 100vh;
+    width: 100%;
     background-color: black;
 }
 
@@ -593,3 +597,12 @@ body {
     margin: 0 auto;
     height: 150px;
 }
+
+
+/* .line4 {
+    height: 2px;
+    width: 100px;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 50px;
+} */
