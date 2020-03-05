@@ -635,7 +635,7 @@ body {
 
 .make:hover {
     transform: scale(1.1);
-    border-radius: 12px;
+    border-radius: 15px;
     background-color: #b19cd9;
 }
 
