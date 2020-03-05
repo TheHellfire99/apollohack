@@ -552,7 +552,7 @@ body {
 }
 
 #faq {
-    height: 100vh;
+    height: 105vh;
     background-color: white;
     overflow: hidden;
 }
@@ -604,6 +604,25 @@ body {
     width: 100%;
     text-align: center;
     margin: 0 auto;
+}
+
+.logodiv {
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.jet {
+    height: 200px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.make {
+    height: 150px;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-right: 10px;
 }
 
 
