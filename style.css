@@ -473,7 +473,7 @@ body {
 
 #about_hackathon {
     z-index: 200;
-    height: 190vh;
+    height: 195vh;
     background-color: white;
     overflow: hidden;
 }
@@ -628,7 +628,61 @@ body {
 
 /*----------------MEDIA QUERIES-----------------*/
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+
+/*iphone x and iphone 11 pro max and iPhone Xs */
+
+@media only screen and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+    .bruh {
+        top: 80%;
+        left: 20%;
+        transform: translate(-20%, -80%);
+    }
+    .bruh2 {
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -80%);
+    }
+    .bruh3 {
+        top: 80%;
+        left: 80%;
+        transform: translate(-80%, -80%);
+    }
+    .where {
+        position: absolute;
+        left: 70%;
+        top: 60%;
+        transform: translate(-70%, -60%);
+    }
+    #about_hackathon {
+        height: 80vh;
+    }
+    .td1 {
+        padding-left: 1px;
+    }
+    .td2 {
+        padding-left: 1px;
+    }
+    #about {
+        height: 140vh;
+    }
+    #faq {
+        height: 50vh;
+    }
+    #sponsors {
+        height: 50vh;
+    }
+    body {
+        height: 420vh;
+    }
+    .what {
+        font-size: 50px;
+    }
+}
+
+
+/*iphone 11 and iphone xr*/
+
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
     .bruh {
         top: 80%;
         left: 20%;
@@ -673,7 +727,10 @@ body {
     }
 }
 
-@media only screen and (min-device-width: 414px) and (min-device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+
+/*all iphone 6 - 8*/
+
+@media only screen and (device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
     .bruh {
         top: 80%;
         left: 20%;
@@ -696,7 +753,7 @@ body {
         transform: translate(-70%, -60%);
     }
     #about_hackathon {
-        height: 80vh;
+        height: 100vh;
     }
     .td1 {
         padding-left: 1px;
@@ -705,13 +762,13 @@ body {
         padding-left: 1px;
     }
     #about {
-        height: 140vh;
+        height: 170vh;
     }
     #faq {
-        height: 50vh;
+        height: 65vh;
     }
     #sponsors {
-        height: 50vh;
+        height: 70vh;
     }
     body {
         height: 420vh;
