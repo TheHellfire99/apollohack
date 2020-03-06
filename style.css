@@ -719,7 +719,7 @@ body {
         transform: translate(-70%, -60%);
     }
     #about_hackathon {
-        height: 80vh;
+        height: 100vh;
     }
     .td1 {
         padding-left: 1px;
@@ -728,13 +728,13 @@ body {
         padding-left: 1px;
     }
     #about {
-        height: 140vh;
+        height: 150vh;
     }
     #faq {
-        height: 50vh;
+        height: 70vh;
     }
     #sponsors {
-        height: 50vh;
+        height: 60vh;
     }
     body {
         height: 420vh;
