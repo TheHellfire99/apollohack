@@ -492,7 +492,6 @@ body {
     font-size: 50px;
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
-    padding-top: 50px;
 }
 
 .what {
@@ -557,35 +556,12 @@ body {
     overflow: hidden;
 }
 
-.tableboy {
-    width: 95%;
-    text-align: center;
-    margin: 0 auto;
-    background-color: white;
-}
-
-.cont {
-    padding-right: 15px;
-    width: 33%;
-}
-
-.maincont {
-    font-family: 'Poppins', sans-serif;
-}
-
 .bruhtitle {
     font-weight: 400;
 }
 
 .bruhtitle2 {
     font-weight: 400;
-}
-
-#down {
-    font-size: 50px;
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 10px;
 }
 
 #sponsors {
@@ -639,6 +615,47 @@ body {
     background-color: #b19cd9;
 }
 
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 80%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.active,
+.accordion:hover {
+    background-color: #b19cd9;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #b19cd9;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
 
 /*----------------MEDIA QUERIES-----------------*/
 
@@ -680,7 +697,7 @@ body {
         height: 140vh;
     }
     #faq {
-        height: 50vh;
+        height: 40vh;
     }
     #sponsors {
         height: 50vh;
@@ -731,7 +748,7 @@ body {
         height: 150vh;
     }
     #faq {
-        height: 70vh;
+        height: 40vh;
     }
     #sponsors {
         height: 60vh;
@@ -779,7 +796,7 @@ body {
         height: 170vh;
     }
     #faq {
-        height: 65vh;
+        height: 50vh;
     }
     #sponsors {
         height: 70vh;
