@@ -697,7 +697,7 @@ body {
         height: 140vh;
     }
     #faq {
-        height: 40vh;
+        height: 50vh;
     }
     #sponsors {
         height: 50vh;
@@ -736,7 +736,7 @@ body {
         transform: translate(-70%, -60%);
     }
     #about_hackathon {
-        height: 100vh;
+        height: 80vh;
     }
     .td1 {
         padding-left: 1px;
